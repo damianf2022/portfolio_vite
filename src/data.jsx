@@ -1,5 +1,6 @@
 import { faBootstrap, faCss3Alt, faFigma, faGitAlt, faHtml5, faJava, faJs, faPhp, faReact, faNode } from '@fortawesome/free-brands-svg-icons';
-
+import ecommerce from './Images/img_ecommerce.gif'
+import videogame from './Images/videogame.gif'
 
 const aboutMe = [
     {
@@ -81,8 +82,46 @@ const skills = [
 
 const projects = [
     {
-
-    }
+        id: 1,
+        imgSrc: ecommerce,
+        alt: "ecommerce",
+        projectName: "e-commerce Tech World",
+        technologies: "JavaScript, Html, Tailwind, React.js, Redux, Node.js, Express, MongoDb y Mongoose.",
+        description: "un e-commerce para la venta de diversos productos electrónicos. Ofrecemos un sistema de inicio de sesión y registro tanto local como a través de terceros.",
+        projectLink: "https://www.techwolrd.store/",
+        githubLink: "https://github.com/damianf2022/TechWorld"
+    },
+    {
+        id: 2,
+        imgSrc: videogame,
+        alt: "videoGame",
+        projectName: "Libreria de Video Juegos",
+        technologies: "JavaScript, Html, css, React.js, Redux, Node.js, Express, PostgreSql y Sequelize.",
+        description: "Una app de libreria de videojuegos que muestra diferentes tipos de juegos organizados por tarjetas.",
+        projectLink: "",
+        githubLink: "https://github.com/damianf2022/Videos-Juegos"
+    },
+    {
+        id: 1,
+        imgSrc: ecommerce,
+        alt: "ecommerce",
+        projectName: "e-commerce Tech World",
+        technologies: "JavaScript, Html, Tailwind, React.js, Redux, Node.js, Express, MongoDb y Mongoose.",
+        description: "un e-commerce para la venta de diversos productos electrónicos. Ofrecemos un sistema de inicio de sesión y registro tanto local como a través de terceros.",
+        projectLink: "https://www.techwolrd.store/",
+        githubLink: "https://github.com/damianf2022/TechWorld"
+    },
+    {
+        id: 2,
+        imgSrc: videogame,
+        alt: "videoGame",
+        projectName: "Libreria de Video Juegos",
+        technologies: "JavaScript, Html, css, React.js, Redux, Node.js, Express, PostgreSql y Sequelize.",
+        description: "Una app de libreria de videojuegos que muestra diferentes tipos de juegos organizados por tarjetas.",
+        projectLink: "",
+        githubLink: "https://github.com/damianf2022/Videos-Juegos"
+    },
+    
 ]
 
 export { aboutMe, education, skills };
