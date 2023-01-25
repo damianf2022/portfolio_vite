@@ -15,7 +15,7 @@ const NavBar = () => {
   const navbar = [
     {
       id: 1,
-      liName: "About",
+      liName: "Sobre Mi",
       link: "#about",
     },
     {
@@ -25,12 +25,12 @@ const NavBar = () => {
     },
     {
       id: 3,
-      liName: "Projects",
+      liName: "Proyectos",
       link: "#projects",
     },
     {
       id: 4,
-      liName: "Contact",
+      liName: "Contacto",
       link: "#contact",
     },
   ];
@@ -53,7 +53,7 @@ const NavBar = () => {
           <a href={resume}
             alt="Damian Ferrera"
             target="blank"
-            className='px-6 py-3 border rounded hover:rounded-lg hover:bg-cyan-800 duration-200'>Resume</a>
+            className='px-6 py-3 border rounded hover:rounded-lg hover:bg-cyan-800 duration-200'>Curriculum</a>
           {/* Hamburger Menu - icon change */}
           {responsiveNavbar ? (
             <button className='md:hidden'

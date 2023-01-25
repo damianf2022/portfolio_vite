@@ -1,4 +1,4 @@
-import { faBootstrap, faCss3Alt, faFigma, faGitAlt, faHtml5, faJs, faMarkdown, faReact, faSass, faWordpress } from '@fortawesome/free-brands-svg-icons';
+import { faBootstrap, faCss3Alt, faFigma, faGitAlt, faHtml5, faJava, faJs, faPhp, faReact, faNode } from '@fortawesome/free-brands-svg-icons';
 
 
 const aboutMe = [
@@ -11,22 +11,24 @@ const aboutMe = [
 const education = [
     {
         id: 1,
-        Universidad: "Ulp universidad de la punta San Luis (Argentina)",
-        especialidad: "Tecnico en Desarrollo de software"
+        schoolName: "Ulp universidad de la punta San Luis (Argentina)",
+        specialization: "Tecnico en Desarrollo de software",
+        learning: "Estructuras de datos y algoritmos, administración de bases de datos, ingeniería de software, Java, Php, Sql, C++, Javascript, Html, Css."
 
     },
     {
         id: 2,
-        Cursos: "SoyHenry",
-        especialidad: "Desarrollador Full Stack"
+        schoolName: "SoyHenry (Bootcamp)",
+        specialization: "Desarrollador Full Stack",
+        learning: "conocimientos adquiridos: Figma, HTML, CSS, JavaScript, React JS, Node.js, SQL, Express, PostgreSQL, Sequelize, MongoDB, Mongoose"
 
     }
 ];
 
-const skills=[
+const skills = [
     {
-        id:1,
-        name:"React",
+        id: 1,
+        name: "React",
         icon: faReact,
     },
     {
@@ -55,20 +57,31 @@ const skills=[
         icon: faGitAlt,
     },
     {
-        id: 7,
-        name: "Sass",
-        icon: faSass,
-    },
-    {
         id: 8,
         name: "Figma",
         icon: faFigma,
     },
+    {
+        id: 9,
+        name: "Php",
+        icon: faPhp,
+    },
+    {
+        id: 10,
+        name: "Java",
+        icon: faJava,
+    },
+    {
+        id: 11,
+        name: "Node",
+        icon: faNode,
+    },
+
 ];
 
-const projects=[
+const projects = [
     {
-        
+
     }
 ]
 
