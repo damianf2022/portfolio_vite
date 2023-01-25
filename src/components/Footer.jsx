@@ -20,7 +20,7 @@ const Footer = () => {
         </div>
         <hr className='opacity-30' />
         <>
-          <p className='text-sm text-gray-300'>Echo con <a href="https://reactjs.org/"><FontAwesomeIcon icon={faReact} />(React)</a></p>
+          <p className='text-sm text-gray-300'>Hecho con <a href="https://reactjs.org/"><FontAwesomeIcon icon={faReact} />(React)</a></p>
         </>
       </div>
     </footer>)
