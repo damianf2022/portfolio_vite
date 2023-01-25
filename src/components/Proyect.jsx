@@ -3,6 +3,7 @@ import { faArrowUpRightFromSquare } from '@fortawesome/free-solid-svg-icons'
 import React from 'react'
 import projects from '../data'
 import LinkBtn from './small-components/LinkBtn'
+import { Fade, Slide, Bounce, JackInTheBox, Flip, Hinge, Zoom, AttentionSeeker } from "react-awesome-reveal";
 
 const Proyect = () => {
   return (
@@ -11,6 +12,7 @@ const Proyect = () => {
         <div className='py-4'>
           <h2 className='text-3xl font-bold lg:text-5xl text-center lg:text-left'>Proyectos Personales</h2>
         </div>
+        <Slide >
         <div className='grid ms:grid-cols-2 xl:grid-cols-3 gap-10 mt-8'>
           {projects.map(project => {
             return (
@@ -35,6 +37,7 @@ const Proyect = () => {
             )
           })}
         </div>
+        </Slide>
       </div>
     </section>
   )

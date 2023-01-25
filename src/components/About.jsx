@@ -1,6 +1,7 @@
 import React from 'react'
 import { education } from '../data'
 import myImage from '../Images/Avatar-Profile-Vector.png';
+import { Fade, Slide, Bounce, JackInTheBox, Flip, Hinge, Zoom, AttentionSeeker } from "react-awesome-reveal";
 
 
 const About = () => {
@@ -27,7 +28,9 @@ const About = () => {
             </div>
           </div>
           <div>
+            <Slide direction='right'>
             <img className='bg-gray-900 p-4 mx-auto w-72 md:w-80 xl:w-96 rounded-md shadow-2xl hover:scale-105 duration-200' src={myImage} alt="no me gustan las fotos" />
+            </Slide>
           </div>
         </div>
       </div>
