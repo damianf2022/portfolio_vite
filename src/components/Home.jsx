@@ -16,7 +16,7 @@ export default function Home() {
                             <span className='lg:text-5xl mb-6 mt-6'><AttentionSeeker effect="shakeX">👋</AttentionSeeker></span>
                             <h4 className='lg:text-3xl mb-4'>Hola, soy </h4>
                             <h1 className="text-5xl font-bold md:text-6xl lg:text-7xl xl:text-8xl">Damian Ferrera</h1>
-                            <h2 className="lg:text-xl mt-4 text-slate-300">Buscando mi primera oportunidad en el <span className="text-cyan-400">desarrollo web</span> </h2>
+                            <h2 className="lg:text-xl mt-4 text-slate-300">Estoy buscando mi primera oportunidad en el <span className="text-cyan-400">desarrollo web</span> </h2>
                         </div>
                         <SocialMediaIcons />
                         <LinkBtn link={resume} linkText="Mira mi Curriculum" classes="mx-auto lg:mx-0 bg-slate-900 rounded shadow-xl px-8 py-4 w-60 hover:bg-sky-800 hover:scale-105 duration-200" />
