@@ -21,7 +21,6 @@ const About = () => {
                     <strong className='text-white'>{edu.schoolName}</strong>
                     <p>{edu.specialization}</p>
                     <p>{edu.learning}</p>
-                    <p>{edu.specialization}</p>
                   </div>
                 )
               })}
