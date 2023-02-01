@@ -2,7 +2,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAnglesDown } from "@fortawesome/free-solid-svg-icons";
 import SocialMediaIcons from "./small-components/SocialMediaIcons";
 import LinkBtn from "./small-components/LinkBtn";
-import resume from "../Assets/DamianFerrera.pdf";
+import resume from "../Assets/FerreraDamian.pdf";
 import { Fade, Slide, Bounce, JackInTheBox, Flip, Hinge, Zoom, AttentionSeeker } from "react-awesome-reveal";
 
 

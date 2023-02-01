@@ -2,7 +2,7 @@ import React from 'react'
 import { faBarsStaggered, faCode, faXmark } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useState } from "react";
-import resume from "../Assets/DamianFerrera.pdf";
+import resume from "../Assets/FerreraDamian.pdf";
 
 
 const NavBar = () => {
